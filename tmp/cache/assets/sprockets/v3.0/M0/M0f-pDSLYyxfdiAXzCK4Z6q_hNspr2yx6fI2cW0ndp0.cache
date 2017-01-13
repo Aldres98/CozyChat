@@ -1,0 +1,20 @@
+I"(function() {
+  App.conversations = App.cable.subscriptions.create("ConversationsChannel", {
+    connected: function() {},
+    disconnected: function() {},
+    received: function(data) {}
+  });
+
+  jQuery(document).on('turbolinks:load', function() {
+    var messages, messages_to_bottom;
+    messages_to_bottom = function() {
+      return messages.scrollTop(messages.prop("scrollHeight"));
+    };
+    messages = $('#conversation-body');
+    if (messages.length > 0) {
+      return messages_to_bottom();
+    }
+  });
+
+}).call(this);
+:ET
