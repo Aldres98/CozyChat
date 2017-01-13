@@ -49,3 +49,708 @@ Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:09:46 +0300
 Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
 ConversationsChannel is transmitting the subscription confirmation
 Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:09:54 +0300
+Started GET "/" for 127.0.0.1 at 2017-01-14 01:30:34 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 629ms (Views: 625.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:30:35 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:30:35 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 01:30:38 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dolnhihj3DhWG4rzTU6jyTNd6iZ7dAmUmN38h9hwt6TTmzlWwvJPfKg+cv/fyjSp2Z3/tHHEK5B5JUXvzPZjlA==", "session"=>{"username"=>"Test,e"}, "commit"=>"Okay"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:30:38 +0300
+  
+SyntaxError (/Users/Aldres/Desktop/CozyChat/app/controllers/messages_controller.rb:5: syntax error, unexpected ':', expecting keyword_end
+      username: cookies.signed[username]
+               ^):
+  
+app/controllers/messages_controller.rb:5: syntax error, unexpected ':', expecting keyword_end
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 01:30:38 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dolnhihj3DhWG4rzTU6jyTNd6iZ7dAmUmN38h9hwt6TTmzlWwvJPfKg+cv/fyjSp2Z3/tHHEK5B5JUXvzPZjlA==", "session"=>{"username"=>"Test,e"}}
+Redirected to http://localhost:3000/messages
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (124.2ms)
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:30:39 +0300
+  
+SyntaxError (/Users/Aldres/Desktop/CozyChat/app/controllers/messages_controller.rb:5: syntax error, unexpected ':', expecting keyword_end
+      username: cookies.signed[username]
+               ^):
+  
+app/controllers/messages_controller.rb:5: syntax error, unexpected ':', expecting keyword_end
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (108.0ms)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:30:39 +0300
+Started GET "/" for 127.0.0.1 at 2017-01-14 01:30:54 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 46ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 01:30:58 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XrDdzihg8tg88WrmqTEbR6udvdUt7GuG7tTpfN/2abySf2u03N8vQaUbLE/tP8Nx6hlAmbP/KvioytM9r/a92w==", "session"=>{"username"=>"Testme"}, "commit"=>"Okay"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:30:58 +0300
+  
+SyntaxError (/Users/Aldres/Desktop/CozyChat/app/controllers/messages_controller.rb:5: syntax error, unexpected ':', expecting keyword_end
+      username: cookies.signed[:username]
+               ^):
+  
+app/controllers/messages_controller.rb:5: syntax error, unexpected ':', expecting keyword_end
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (113.4ms)
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 01:31:53 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dolnhihj3DhWG4rzTU6jyTNd6iZ7dAmUmN38h9hwt6TTmzlWwvJPfKg+cv/fyjSp2Z3/tHHEK5B5JUXvzPZjlA==", "session"=>{"username"=>"Test,e"}, "commit"=>"Okay"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:31:53 +0300
+  
+SyntaxError (/Users/Aldres/Desktop/CozyChat/app/controllers/messages_controller.rb:5: syntax error, unexpected ':', expecting keyword_end
+    username: cookies.signed[:username]
+             ^):
+  
+app/controllers/messages_controller.rb:5: syntax error, unexpected ':', expecting keyword_end
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:31:53 +0300
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (112.0ms)
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:31:53 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:31:53 +0300
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:32:26 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/Aldres/Desktop/CozyChat/app/views/messages/index.html.erb:10: syntax error, unexpected ':'
+...ffer.append=( form.text_field : body );@output_buffer.safe_a...
+...                               ^):
+  
+app/views/messages/index.html.erb:10: syntax error, unexpected ':'
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.9ms)
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:32:48 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:32:48 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:32:48 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:32:52 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"123"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"123", :username=>"Test,e"}
+Completed 200 OK in 9ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:32:57 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"123"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"123", :username=>"Test,e"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:32:59 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"123"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"123", :username=>"Test,e"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:34:32 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:34:32 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:34:32 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:34:32 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:34:35 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"34"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"34", :username=>"Test,e"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:34:53 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:34:53 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:34:54 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:34:54 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:34:57 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"45"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"45", :username=>"Test,e"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:35:43 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 54ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:35:43 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:35:44 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:35:44 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:35:45 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"e"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"e", :username=>"Test,e"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:35:48 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"e134"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"e134", :username=>"Test,e"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:35:50 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:35:50 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:35:50 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:35:50 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:35:52 +0300
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 01:35:54 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XrDdzihg8tg88WrmqTEbR6udvdUt7GuG7tTpfN/2abySf2u03N8vQaUbLE/tP8Nx6hlAmbP/KvioytM9r/a92w==", "session"=>{"username"=>"Testme"}, "commit"=>"Okay"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:35:54 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:35:54 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:35:54 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:35:57 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"431"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"431", :username=>"Testme"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:36:27 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"431"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"431", :username=>"Testme"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:36:28 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 201ms (Views: 199.2ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:36:28 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:36:29 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:36:29 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:36:29 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>""}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"", :username=>"Testme"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:36:31 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"gfs"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"gfs", :username=>"Testme"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:37:02 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"Broadcasting message"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"Broadcasting message", :username=>"Testme"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:38:50 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:38:50 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started GET "/" for 127.0.0.1 at 2017-01-14 01:39:04 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (17.2ms)
+Started GET "/" for 127.0.0.1 at 2017-01-14 01:39:05 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 444ms (Views: 430.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 219ms (Views: 216.2ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:39:05 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:39:05 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:39:05 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:39:05 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:39:05 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 01:39:09 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7eLCCbfD9yX+uTy5vC93CrzE4dVlMdXst9W+CW+KKD4w8JzZXVJkYQCcxLUuq+BqVgT0R2+B9+hWLQdhewz8Dg==", "session"=>{"username"=>"MyNick"}, "commit"=>"Okay"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:39:09 +0300
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for MessagesController):
+  
+actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.8ms)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:39:10 +0300
+Started GET "/" for 127.0.0.1 at 2017-01-14 01:40:09 +0300
+Processing by SessionsController#new as HTML
+Started GET "/" for 127.0.0.1 at 2017-01-14 01:40:10 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (17.3ms)
+  Rendered sessions/new.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 938ms (Views: 933.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 979ms (Views: 942.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:40:11 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:40:11 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:40:11 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:40:11 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 01:40:15 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oLWT4oo2dJMPXe8vUHVA5NAHGMgGXZkOOImxLDbZMkF9p80yYKfn1/F4FyPC8deEOscNWgztuwrZcQhEIl/mcQ==", "session"=>{"username"=>"CheekiBreeky"}, "commit"=>"Okay"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:40:15 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.slim within layouts/application
+  Rendered messages/index.html.slim within layouts/application (50.5ms)
+Completed 200 OK in 115ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:40:16 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:40:16 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:40:16 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:40:36 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ANU CHEEKI BREEKY"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"ANU CHEEKI BREEKY", :username=>"CheekiBreeky"}
+Completed 200 OK in 110ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:43:17 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:43:17 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:43:17 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:43:17 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:43:17 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started GET "/" for 127.0.0.1 at 2017-01-14 01:43:20 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 605ms (Views: 589.3ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:43:21 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:43:21 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:43:21 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 01:43:25 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SNqMyqD0kXnSg06xVZx35vZgdnyoU7CPj1F0Z3T3zemVyNIaSmUCPSymtr3HGOCGHKBj7qLjkotuqc0PYHEZ2Q==", "session"=>{"username"=>"Чикибрики"}, "commit"=>"Okay"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:43:25 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.slim within layouts/application
+  Rendered messages/index.html.slim within layouts/application (16.3ms)
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:43:25 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:43:25 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:43:25 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:43:30 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"I V DAMKE"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"I V DAMKE", :username=>"Чикибрики"}
+Completed 200 OK in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:44:19 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:44:19 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:46:05 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:46:05 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:46:05 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:46:05 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:46:05 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:46:07 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.slim within layouts/application
+  Rendered messages/index.html.slim within layouts/application (47.3ms)
+Completed 200 OK in 631ms (Views: 615.9ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:46:07 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:46:08 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:46:08 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:46:11 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ask"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"ask", :username=>"Чикибрики"}
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:46:11 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ask"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"ask", :username=>"Чикибрики"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-14 01:46:14 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 78ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:46:14 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:46:14 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started GET "/" for 127.0.0.1 at 2017-01-14 01:46:14 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 64ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:46:14 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:46:14 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:46:14 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 01:46:17 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gyfQCqICEO5Lypd/4i9WW1byEja47rcBl6Eo05t0BgFeNY7aSJODqrXvb3Nwq8E7vDIHpLJelQV2WZG7j/LSMQ==", "session"=>{"username"=>"CJ"}, "commit"=>"Okay"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:46:17 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.slim within layouts/application
+  Rendered messages/index.html.slim within layouts/application (7.6ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:46:17 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:46:17 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:46:17 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:46:53 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ALLO"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"ALLO", :username=>"CJ"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:46:54 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ALLO"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"ALLO", :username=>"CJ"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 01:49:12 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.slim within layouts/application
+  Rendered messages/index.html.slim within layouts/application (8.5ms)
+Completed 200 OK in 77ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:49:13 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:49:13 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:49:15 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"mh"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"mh", :username=>"CJ"}
+No template found for MessagesController#create, rendering head :no_content
+Completed 204 No Content in 106ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:49:21 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"mh"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"mh", :username=>"CJ"}
+No template found for MessagesController#create, rendering head :no_content
+Completed 204 No Content in 104ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:49:30 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"mh"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"mh", :username=>"CJ"}
+No template found for MessagesController#create, rendering head :no_content
+Completed 204 No Content in 103ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 01:49:30 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"mh"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"mh", :username=>"CJ"}
+No template found for MessagesController#create, rendering head :no_content
+Completed 204 No Content in 103ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:51:30 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:51:30 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 01:52:09 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 01:52:09 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started GET "/" for 127.0.0.1 at 2017-01-14 02:05:37 +0300
+  
+SyntaxError (/Users/Aldres/Desktop/CozyChat/app/controllers/sessions_controller.rb:9: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/sessions_controller.rb:9: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/Aldres/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (132.3ms)
+Started GET "/" for 127.0.0.1 at 2017-01-14 02:05:51 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 66ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 02:05:52 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 02:05:52 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 02:05:54 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ypepo+NzuF2U9oDNPis/DLGNwz6BnZ0MFdHoB21zkJMXhfdzCeIrGWrTeMGsr6hsW03WrIstvwj0KVFvefVEow==", "session"=>{"username"=>""}, "commit"=>"Okay"}
+No template found for SessionsController#create, rendering head :no_content
+Completed 204 No Content in 80ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-14 02:06:11 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 02:06:11 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 02:06:11 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/sessions" for 127.0.0.1 at 2017-01-14 02:06:12 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZgINicXc4gvXQABxrgdHhoBlMZdlsA1avUMGQwFL4Qq7EFNZL01xTyll+H08g9DmaqUkBW8AL15cu78rFc01Og==", "session"=>{"username"=>""}, "commit"=>"Okay"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-01-14 02:06:12 +0300
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.slim within layouts/application
+  Rendered messages/index.html.slim within layouts/application (7.7ms)
+Completed 200 OK in 55ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 02:06:13 +0300
+Started GET "/cable" for 127.0.0.1 at 2017-01-14 02:06:13 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 02:06:13 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ConversationsChannel is transmitting the subscription confirmation
+Started POST "/messages" for 127.0.0.1 at 2017-01-14 02:06:15 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"a"}, "commit"=>"Отправить сообщение"}
+[ActionCable] Broadcasting to messages: {:message=>"a", :username=>""}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-01-14 02:06:45 +0300
